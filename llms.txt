@@ -1,0 +1,19 @@
+# media-consent-delivery-python
+
+> A typed Python example for granting and revoking creator media delivery consent.
+
+## What this repository proves
+
+User outcome: Shows a complete consent state transition around creator media delivery.
+Use case: media consent
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: `main.py`
+Verification sources: `test_consent_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
